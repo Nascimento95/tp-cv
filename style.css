@@ -1,0 +1,75 @@
+/*général*/
+.white
+{
+    color: white;
+}
+
+
+  
+
+
+
+/*header*/
+header
+{
+    display:flex;
+    background-color: #0475ba;
+    justify-content: flex-start;
+}
+nav ul li
+{
+    display:inline-block;
+    margin-right: 10px;
+    font-size: 0,7em;
+
+}
+h1
+{
+    font-size: 1.2em;
+}
+
+/* section image */
+#photo
+{
+    display: flex;
+}
+h2 
+{
+ font-size: 1.5em;
+}
+
+
+/*section presentation*/
+#presentation
+{
+    background-color: #0475ba;
+    height: 200px;
+    margin: 20px 0px 40 px 40px;
+}
+h4
+{
+    font-size: 1.2em;
+    padding: 30px 0px 40px 190px;
+}
+ul
+{
+
+}
+
+/*section expérience professionnelles*/
+
+
+
+/*section formation*/
+#formation
+{
+    background-color: #0475ba;
+}
+
+/* section passion*/
+
+/*footer*/
+footer 
+{
+    background-color: #0475ba;
+}
