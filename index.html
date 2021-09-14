@@ -2,7 +2,9 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css"/>
         <link rel="stylesheet" href="style.css"/>
+
         <title>Mon CV</title>
     </head>
     <body>
@@ -11,9 +13,9 @@
             <h1 class="white">Marco Paulo NASCIMENTO PEREIRA</h1>
             <nav>
                 <ul>
-                    <li class="white">Profile</li>
-                    <li class="white">Expériences</li>
-                    <li class="white">Formations</li>
+                    <a href="#photo"><li class="white">Profile</li></a>
+                    <a href="#expérience-pro"><li class="white">Expériences</li></a>
+                    <a href="#formation"><li class="white">Formations</li></a>
                 </ul>
             </nav>
         </header>
@@ -54,10 +56,16 @@
         </section>
 
         <footer>
-            <a href="https://www.konexio.eu" class="white">Mon blog tech</a>
-            <a href="https://www.konexio.eu" class="white">Mon blog voyage</a>
-            <a href="https://www.konexio.eu" class="white">Linkedin</a>
-            <a href="https://www.konexio.eu" class="white">twitter</a>
+            <div>
+                <a href="https://www.konexio.eu" class="white">Mon blog tech</a>
+                <a href="https://www.konexio.eu" class="white">Mon blog voyage</a>
+            </div>
+            
+            <div id="linkdin">
+                <a href="https://www.konexio.eu" class="white">Linkedin</a>
+                <a href="https://www.konexio.eu" class="white">twitter</a>
+            </div>
+           
         </footer>
     
     </body>
