@@ -85,13 +85,35 @@ ul
 /*section expérience professionnelles*/
 #expérience-pro
 {
-    height: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h4
+{
+    margin-bottom: 0px;
+}
+#année
+{
+    
+    flex-direction: column;
+    
+}
+#année p
+{
+    margin-top: 99PX;
 }
 
 #expérience-pro p
 {
-    padding-left: 160px;
+    margin-left: 160px;
+    margin-bottom: 1px;
+    width: 300px;
+    
 }
+
+
 
 
 /*section formation*/
@@ -112,6 +134,7 @@ ul
     padding-left:160px;
 }
 
+
 /*footer*/
 footer 
 {
@@ -127,9 +150,53 @@ div
     padding-top: 20px;
     padding-left: 40px;
 }
+#konexio a
+{
+    margin-top: 10px;
+}
 
 #linkdin a 
 {
     padding-top: 10px;
     padding-left: 100px;
+}
+
+/*medi queries */
+@media (max-width: 768px)
+{
+    /*section header*/
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    /*section image */
+    #photo
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    /*section expérience pro*/
+
+    #expérience-pro
+    {
+        display:flex;
+        
+    }
+    h4
+    {
+        padding-left: 0px;
+        
+    }
+    #expérience-pro p
+    {
+        
+       
+        margin-left: 0%;
+    }
+
+    
+
 }
