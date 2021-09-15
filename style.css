@@ -1,4 +1,26 @@
 /*général*/
+@font-face {
+    font-family: 'poppins' ;
+    src: url(fonts/poppins.ttf);
+}
+@font-face {
+    font-family: 'poppins-med' ;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+body
+{
+    border: black 2px solid;
+    margin: auto;
+}
+
+p
+{
+    font-family: 'poppins',Arial, Helvetica, sans-serif
+}
+h1
+{
+    font-family: 'poppins-med';
+}
 .white
 {
     color: white;
@@ -48,24 +70,25 @@ h1
     
     
 }
+
 h2 
 {
  font-size: 1.5em;
  margin-left: 200px;
 }
+
 span
 {
     font-size: 1em;
     
 }
+
 img
 {
     border-radius: 50%;
-    margin-left: 200px;
-    margin-top: 40px;
-    width: 170px;
+    margin: auto auto;
+     width: 170px;
     height: 170px;
-    
 }
 
 
@@ -109,7 +132,7 @@ h4
 {
     margin-left: 160px;
     margin-bottom: 1px;
-    width: 300px;
+    width: auto;
     
 }
 
@@ -154,16 +177,43 @@ div
 {
     margin-top: 10px;
 }
+#linkdin
+{
+    padding-left: 0px;
+    width: 50px;
 
+}
 #linkdin a 
 {
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 5px;
+}
+#icone
+{
+    
+    padding-top: 17px;
+
 }
 
-/*medi queries */
+#twit
+{
+    width:20px ;
+    height: 20px;
+    border-top: 0px;
+
+}
+#link
+{
+    width:20px ;
+    height: 20px;
+    
+}
+
+
+/*media queries */
 @media (max-width: 768px)
 {
+ 
     /*section header*/
     header
     {
@@ -177,6 +227,22 @@ div
         display: flex;
         flex-direction: column;
         height: auto;
+        
+    }
+    #photo img 
+    {
+        margin: auto auto;
+        border-radius: 50%;
+    }
+    /*section présentation*/
+    #presentation 
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    ul li 
+    {
+        margin-left: 0px;
     }
     /*section expérience pro*/
 
@@ -190,13 +256,30 @@ div
         padding-left: 0px;
         
     }
+    #expérience-pro
+    {
+        height:auto ;
+        border: 1px black solid;
+    }
     #expérience-pro p
     {
         
-       
+        border: 1px black solid;
         margin-left: 0%;
+        
     }
+    #année 
+    {
+        padding-left: auto;
+        width:90px;
+        
+    }
+    /*section formation*/
 
+    #formation
+    {
+        height: auto;
+    }
     
 
 }
